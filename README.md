@@ -50,7 +50,7 @@ https://github.com/ethpoolproxy/stratumproxy/releases
 ## Linux一键安装
 
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/master/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/zrx830/stratumproxy/master/install.sh)
 ```
 
 ---
@@ -63,7 +63,7 @@ systemctl status stratumproxy
 ---
 ## Linux手动安装
 ```bash
-wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.1/stratumproxy_v1.3.1 -O /usr/bin/stratumproxy
+wget https://github.com/zrx830/stratumproxy/releases/download/1.4.2/stratumproxy_v1.4.2 -O /usr/bin/stratumproxy
 wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/stratumproxy.service -O /etc/systemd/system/stratumproxy.service
 systemctl daemon-reload
 systemctl enable --now stratumproxy
